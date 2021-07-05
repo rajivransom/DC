@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Dogechats",
+    "slug": "dogechats",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "logodoge.png",
+    "splash": {
+      "image": "gp.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.rajivtiwari.dogechat",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "A mobile app for dogefans"
+  }
+}
